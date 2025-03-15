@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,800;0,900;1,300&display=swap');
+
+:root {
+  --primary-color: #0F0F0F;
+  --secondary-primary-color: #505050;
+  --accent-color: #373564;
+  --secondary-accent-color: #a4b0d3;
+  --bg-color: #EFEFEF;
+  --secondary-bg-color: #f6f9f8;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul[class],
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  background-color: var(--bg-color);
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--primary-color);
+}
+
+body {
+  background-color: var(--bg-color);
+  padding: 0;
+}
+
+section {
+  padding: 4rem 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.icon {
+  font-size: 2rem;
+  cursor: pointer;
+  fill: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  color: var(--secondary-accent-color);
+  padding: .5rem 2rem;
+  border-radius: 1rem;
+  border: 2px solid var(--accent-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  outline: none;
+  transition: all .9s;
+  text-transform: uppercase;
+}
+
+
+.btn:hover {
+  background-color: var(--secondary-accent-color);
+  color: var(--primary-color);
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.title {
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: -1px;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+.info {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--secondary-primary-color);
+}
+
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 968px) {
+  html {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 448px) {
+  html {
+    font-size: 12px;
+  }
+
+  section {
+    padding: 2rem 0;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: .8rem;
+  }
+}
