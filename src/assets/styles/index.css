@@ -3,7 +3,7 @@
 :root {
   --primary-color: #0F0F0F;
   --secondary-primary-color: #505050;
-  --accent-color: #373564;
+  --accent-color: #433e9b;
   --secondary-accent-color: #a4b0d3;
   --bg-color: #EFEFEF;
   --secondary-bg-color: #f6f9f8;
@@ -144,7 +144,7 @@ section {
 .title {
   font-weight: 900;
   letter-spacing: 1.5px;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .subtitle {
@@ -164,6 +164,28 @@ section {
   color: var(--secondary-primary-color);
 }
 
+.nft {
+  padding: 20px;
+  border-radius: 1rem;
+  background-color: var(--secondary-bg-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow .3s ease;
+}
+
+.nft:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.nft img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.priceDiv {
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
 
 @media (max-width: 1200px) {
   html {
@@ -176,9 +198,6 @@ section {
     font-size: 14px;
   }
 
-  .title {
-    font-size: 2.5rem;
-  }
 }
 
 @media (max-width: 768px) {
@@ -194,10 +213,6 @@ section {
 
   section {
     padding: 2rem 0;
-  }
-
-  .title {
-    font-size: 2rem;
   }
 
   .btn {

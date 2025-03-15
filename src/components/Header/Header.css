@@ -1,0 +1,25 @@
+.logo{
+  cursor: pointer;
+}
+.logo .end{
+  color: var(--accent-color);
+}
+.header{
+  padding: 1.5rem 0;
+}
+.header .flex{
+  justify-content: space-between;
+}
+.navbar .flex{
+gap: 1rem;
+}
+.navbar .subtitle{
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+.navbar .subtitle:active,
+.navbar .subtitle:hover{
+  color: var(--accent-color);
+  padding-bottom: 0;
+  border-bottom: 2px solid var(--accent-color);
+}
