@@ -7,7 +7,7 @@ const Header = () => {
       <header className="header">
         <div className="container flex">
           <div className="logo">
-            <div className="title flex">Crypto <h1 className="title end">Canvas</h1></div>
+            <div className="title flex"><a className="title" href="/">Crypto </a><a href="/" className="title end">Canvas</a></div>
           </div>
           <div className="navbar">
             <ul className="flex">

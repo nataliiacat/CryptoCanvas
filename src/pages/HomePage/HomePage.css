@@ -1,3 +1,8 @@
+.HomePage{
+  margin: auto 0;
+  flex: 1!important;
+  height: 100%;
+}
 .input {
   color: var(--secondary-primary-color);
   border: 2px solid var(--accent-color);

@@ -27,6 +27,7 @@ const HomePage = () => {
                 className="input"
                 type="text"
                 placeholder="Enter your wallet address"
+                title="Enter an address or click on Search"
                 value={walletAddress}
                 onChange={(e) => setWalletAddress(e.target.value)}
               />
