@@ -1,25 +1,46 @@
-.logo{
+.logo {
   cursor: pointer;
 }
-.logo .end{
+
+.logo .end {
   color: var(--accent-color);
 }
-.header{
+
+.header {
   padding: 1.5rem 0;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
 }
-.header .flex{
+
+.header .flex {
   justify-content: space-between;
 }
-.navbar .flex{
-gap: 1rem;
+
+.navbar .flex {
+  gap: 1rem;
 }
-.navbar .subtitle{
+
+.navbar .subtitle {
   padding-bottom: 2px;
   cursor: pointer;
 }
+
 .navbar .subtitle:active,
-.navbar .subtitle:hover{
+.navbar .subtitle:hover {
   color: var(--accent-color);
   padding-bottom: 0;
   border-bottom: 2px solid var(--accent-color);
+}
+
+@media screen and (max-width: 768px) {
+  .logo .title {
+    font-size: 1.5rem;
+  }
+
+  .header {
+    padding: 1rem 0;
+  }
+
+  .navbar .subtitle {
+    font-size: 1rem;
+  }
 }

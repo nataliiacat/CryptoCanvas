@@ -40,3 +40,14 @@
   text-align: left;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 768px) {
+  .HomePage .container {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .HomePage .content h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+}

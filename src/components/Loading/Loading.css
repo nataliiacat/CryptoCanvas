@@ -3,6 +3,7 @@
   margin: 20% auto 0; 
   width: 12em;
   height: 12em;
+  animation: rotate 5s linear infinite;
 }
 
 .loader path {
@@ -36,5 +37,14 @@
 
   100% {
     stroke-dashoffset: 5;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

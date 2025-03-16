@@ -2,9 +2,9 @@
 
 :root {
   --primary-color: #0F0F0F;
-  --secondary-primary-color: #505050;
+  --secondary-primary-color: #393838;
   --accent-color: #433e9b;
-  --secondary-accent-color: #a4b0d3;
+  --secondary-accent-color: #849adc;
   --bg-color: #EFEFEF;
   --secondary-bg-color: #f6f9f8;
 }
@@ -165,11 +165,15 @@ section {
 }
 
 .nft {
+  width: 240px;
   padding: 20px;
   border-radius: 1rem;
   background-color: var(--secondary-bg-color);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow .3s ease;
+}
+.name{
+  text-align: center;
 }
 
 .nft:hover {
@@ -177,7 +181,9 @@ section {
 }
 
 .nft img {
-  width: 100%;
+ object-fit: cover;
+  height: 200px;
+  width: 200px;
   border-radius: 1rem;
 }
 
